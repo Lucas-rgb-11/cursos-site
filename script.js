@@ -27,6 +27,7 @@ function renderCursos() {
                 <span class="curso-tag">${curso.categoria}</span>
                 <h3 class="curso-title">${curso.titulo}</h3>
                 <p class="curso-description">${curso.descricao}</p>
+                <p class="curso-price">R$ ${curso.preco}</p>
                 <div class="curso-meta">
                     <span>⏱️ ${curso.duracao}</span>
                     <span>📊 ${curso.nivel}</span>
