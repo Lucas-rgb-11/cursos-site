@@ -32,12 +32,11 @@ function renderCursos() {
                     <span class="rating-number">${curso.avaliacao}</span>
                     <span class="students">(${curso.alunos} alunos)</span>
                 </div>
-                <p class="curso-price">R$ ${curso.preco}</p>
+                <p class="curso-price">Grátis</p>
                 <div class="curso-meta">
                     <span>⏱️ ${curso.duracao}</span>
                     <span>📊 ${curso.nivel}</span>
                 </div>
-                <button onclick="irParaCheckout(${curso.id})" class="btn btn-primary btn-comprar">Comprar Agora</button>
             </div>
         `;
         
