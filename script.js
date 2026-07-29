@@ -30,7 +30,6 @@ function renderCursos() {
                 <div class="curso-rating">
                     <span class="stars">★★★★★</span>
                     <span class="rating-number">${curso.avaliacao}</span>
-                    <span class="students">(${curso.alunos} alunos)</span>
                 </div>
                 <p class="curso-price">Grátis</p>
                 <div class="curso-meta">
