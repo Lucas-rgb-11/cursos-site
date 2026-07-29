@@ -70,7 +70,7 @@ function renderCursos(filteredCursos = null) {
                     <span class="stars">★★★★★</span>
                     <span class="rating-number">${curso.avaliacao}</span>
                 </div>
-                <p class="curso-price">R$ ${curso.preco}</p>
+                <p class="curso-price">Grátis</p>
                 <div class="curso-meta">
                     <span>⏱️ ${curso.duracao}</span>
                     <span>📊 ${curso.nivel}</span>
