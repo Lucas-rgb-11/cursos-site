@@ -70,15 +70,15 @@ function renderCursos(filteredCursos = null) {
                     <span class="stars">★★★★★</span>
                     <span class="rating-number">${curso.avaliacao}</span>
                 </div>
-                <p class="curso-price">Grátis</p>
+                <p class="curso-price">R$ ${curso.preco}</p>
                 <div class="curso-meta">
                     <span>⏱️ ${curso.duracao}</span>
                     <span>📊 ${curso.nivel}</span>
                 </div>
                 <div class="curso-share">
-                    <button onclick="shareCurso(${curso.id})" class="btn-share">
-                        <i data-lucide="share-2"></i> Compartilhar
-                    </button>
+                    <a href="${curso.kiwifyLink}" target="_blank" class="btn btn-primary btn-buy">
+                        <i data-lucide="shopping-cart"></i> Comprar Agora
+                    </a>
                 </div>
             </div>
         `;

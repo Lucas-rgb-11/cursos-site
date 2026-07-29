@@ -10,6 +10,7 @@ const cursos = [
         emoji: "💻",
         codigoAcesso: "PROG2024",
         avaliacao: 5,
+        kiwifyLink: "https://pay.kiwify.com.br/x14VE8I",
         conteudoTexto: `CURSO: PROGRAMAÇÃO WEB COMPLETO
 ================================
 
@@ -180,6 +181,7 @@ Próximos passos:
         emoji: "📈",
         codigoAcesso: "MKT2024",
         avaliacao: 4.5,
+        kiwifyLink: "https://pay.kiwify.com.br/x14VE8I",
         conteudoTexto: `CURSO: MARKETING DIGITAL
 ========================
 
@@ -363,6 +365,7 @@ Próximos passos:
         emoji: "🎨",
         codigoAcesso: "DES2024",
         avaliacao: 4.7,
+        kiwifyLink: "https://pay.kiwify.com.br/x14VE8I",
         conteudoTexto: `CURSO: DESIGN GRÁFICO
 =====================
 
@@ -585,6 +588,7 @@ Próximos passos:
         emoji: "💰",
         codigoAcesso: "FIN2024",
         avaliacao: 4.6,
+        kiwifyLink: "https://pay.kiwify.com.br/x14VE8I",
         conteudoTexto: `CURSO: FINANÇAS PESSOAIS
 ========================
 
@@ -773,6 +777,7 @@ Próximos passos:
         emoji: "🌍",
         codigoAcesso: "ING2024",
         avaliacao: 4.3,
+        kiwifyLink: "https://pay.kiwify.com.br/x14VE8I",
         conteudoTexto: `CURSO: INGLÊS PARA NEGÓCIOS
 ===========================
 
@@ -969,6 +974,7 @@ Próximos passos:
         emoji: "🎬",
         codigoAcesso: "VID2024",
         avaliacao: 4.8,
+        kiwifyLink: "https://pay.kiwify.com.br/x14VE8I",
         conteudoTexto: `CURSO: PRODUÇÃO DE VÍDEO
 =========================
 
