@@ -10,6 +10,12 @@ const cursos = [
         emoji: "💻",
         pixKey: "lucasklein240@gmail.com",
         codigoAcesso: "PROG2024",
+        alunos: 1234,
+        avaliacao: 4.8,
+        cupons: {
+            "PRIMEIRA10": 10,
+            "BEMVINDO20": 20
+        },
         conteudoTexto: `CURSO: PROGRAMAÇÃO WEB COMPLETO
 ================================
 
@@ -180,6 +186,12 @@ Próximos passos:
         emoji: "📈",
         pixKey: "lucasklein240@gmail.com",
         codigoAcesso: "MKT2024",
+        alunos: 892,
+        avaliacao: 4.7,
+        cupons: {
+            "PRIMEIRA10": 10,
+            "BEMVINDO20": 20
+        },
         conteudoTexto: `CURSO: MARKETING DIGITAL
 ========================
 
@@ -363,6 +375,12 @@ Próximos passos:
         emoji: "🎨",
         pixKey: "lucasklein240@gmail.com",
         codigoAcesso: "DES2024",
+        alunos: 654,
+        avaliacao: 4.9,
+        cupons: {
+            "PRIMEIRA10": 10,
+            "BEMVINDO20": 20
+        },
         conteudoTexto: `CURSO: DESIGN GRÁFICO
 =====================
 
@@ -585,6 +603,12 @@ Próximos passos:
         emoji: "💰",
         pixKey: "lucasklein240@gmail.com",
         codigoAcesso: "FIN2024",
+        alunos: 1523,
+        avaliacao: 4.6,
+        cupons: {
+            "PRIMEIRA10": 10,
+            "BEMVINDO20": 20
+        },
         conteudoTexto: `CURSO: FINANÇAS PESSOAIS
 ========================
 
@@ -773,6 +797,12 @@ Próximos passos:
         emoji: "🌍",
         pixKey: "lucasklein240@gmail.com",
         codigoAcesso: "ING2024",
+        alunos: 432,
+        avaliacao: 4.8,
+        cupons: {
+            "PRIMEIRA10": 10,
+            "BEMVINDO20": 20
+        },
         conteudoTexto: `CURSO: INGLÊS PARA NEGÓCIOS
 ===========================
 
@@ -969,6 +999,12 @@ Próximos passos:
         emoji: "🎬",
         pixKey: "lucasklein240@gmail.com",
         codigoAcesso: "VID2024",
+        alunos: 789,
+        avaliacao: 4.7,
+        cupons: {
+            "PRIMEIRA10": 10,
+            "BEMVINDO20": 20
+        },
         conteudoTexto: `CURSO: PRODUÇÃO DE VÍDEO
 =========================
 

@@ -27,11 +27,17 @@ function renderCursos() {
                 <span class="curso-tag">${curso.categoria}</span>
                 <h3 class="curso-title">${curso.titulo}</h3>
                 <p class="curso-description">${curso.descricao}</p>
+                <div class="curso-rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="rating-number">${curso.avaliacao}</span>
+                    <span class="students">(${curso.alunos} alunos)</span>
+                </div>
                 <p class="curso-price">R$ ${curso.preco}</p>
                 <div class="curso-meta">
                     <span>⏱️ ${curso.duracao}</span>
                     <span>📊 ${curso.nivel}</span>
                 </div>
+                <button onclick="irParaCheckout(${curso.id})" class="btn btn-primary btn-comprar">Comprar Agora</button>
             </div>
         `;
         
@@ -41,6 +47,10 @@ function renderCursos() {
         
         cursosGrid.appendChild(card);
     });
+}
+
+function irParaCheckout(cursoId) {
+    window.location.href = `checkout.html?curso=${cursoId}`;
 }
 
 function renderCursoDetail(cursoId) {

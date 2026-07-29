@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Cursos — Conhecimento que vira prática</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
     <header>
@@ -14,6 +15,7 @@
                 <ul class="nav-links">
                     <li><a href="#cursos">Cursos</a></li>
                     <li><a href="#sobre">Método</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </div>
@@ -22,7 +24,7 @@
 
     <main>
         <section class="hero">
-            <div class="container">
+            <div class="container animate-fade-in-up">
                 <h2>Conhecimento que sai da tela e vira prática.</h2>
                 <p>Trilhas completas para você desenvolver habilidades valorizadas, avançar na carreira e construir novos projetos.</p>
                 <a href="#cursos" class="btn btn-primary">Explorar cursos ↘</a>
@@ -38,8 +40,8 @@
 
         <section id="cursos" class="cursos-section">
             <div class="container">
-                <h2 class="section-title">Cursos em destaque</h2>
-                <p class="section-subtitle">Conteúdo organizado, linguagem simples e foco no que você realmente precisa para evoluir.</p>
+                <h2 class="section-title animate-fade-in-up">Cursos em destaque</h2>
+                <p class="section-subtitle animate-fade-in">Conteúdo organizado, linguagem simples e foco no que você realmente precisa para evoluir.</p>
                 <div class="cursos-grid" id="cursos-grid">
                     <!-- Cursos serão carregados via JavaScript -->
                 </div>
@@ -52,22 +54,22 @@
                 <p class="section-subtitle">Uma experiência pensada para encaixar o estudo na rotina e transformar teoria em resultado.</p>
                 <div class="features">
                     <div class="feature">
-                        <div class="feature-icon">📚</div>
+                        <div class="feature-icon"><i data-lucide="book-open"></i></div>
                         <h3>Conteúdo completo</h3>
                         <p>Do fundamento à aplicação, com uma sequência fácil de acompanhar.</p>
                     </div>
                     <div class="feature">
-                        <div class="feature-icon">⏰</div>
+                        <div class="feature-icon"><i data-lucide="clock"></i></div>
                         <h3>Acesso Vitalício</h3>
                         <p>Estude quando quiser e retome cada etapa sempre que precisar.</p>
                     </div>
                     <div class="feature">
-                        <div class="feature-icon">💬</div>
+                        <div class="feature-icon"><i data-lucide="message-circle"></i></div>
                         <h3>Suporte Direto</h3>
                         <p>Conte com orientação para destravar dúvidas durante a jornada.</p>
                     </div>
                     <div class="feature">
-                        <div class="feature-icon">📜</div>
+                        <div class="feature-icon"><i data-lucide="award"></i></div>
                         <h3>Certificado</h3>
                         <p>Comprove sua evolução com um certificado de conclusão.</p>
                     </div>
@@ -95,5 +97,8 @@
 
     <script src="data.js"></script>
     <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Lucas Cursos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">LC<br>Lucas Cursos</h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">Cursos</a></li>
+                    <li><a href="index.html#sobre">Método</a></li>
+                    <li><a href="index.html#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="checkout-section">
+            <div class="container">
+                <a href="index.html" class="btn-back">← Voltar para Cursos</a>
+                
+                <div class="checkout-container">
+                    <div class="checkout-summary">
+                        <h2>Resumo do Pedido</h2>
+                        <div id="curso-info">
+                            <!-- Curso info será carregado via JavaScript -->
+                        </div>
+                        
+                        <div class="coupon-section">
+                            <h3>Cupom de Desconto</h3>
+                            <div class="coupon-input-container">
+                                <input type="text" id="cupom-input" placeholder="Digite seu cupom" class="coupon-input">
+                                <button onclick="aplicarCupom()" class="btn btn-secondary">Aplicar</button>
+                            </div>
+                            <p id="cupom-mensagem" class="cupom-mensagem"></p>
+                        </div>
+                        
+                        <div class="total-section">
+                            <div class="price-row">
+                                <span>Preço original:</span>
+                                <span id="preco-original">R$ 0,00</span>
+                            </div>
+                            <div class="price-row discount" id="desconto-row" style="display: none;">
+                                <span>Desconto:</span>
+                                <span id="desconto-valor">-R$ 0,00</span>
+                            </div>
+                            <div class="price-row total">
+                                <span>Total:</span>
+                                <span id="preco-final">R$ 0,00</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="checkout-payment">
+                        <h2>Pagamento via Pix</h2>
+                        <div class="pix-container">
+                            <div class="pix-info">
+                                <h3>Chave Pix</h3>
+                                <p class="pix-key" id="pix-key">lucasklein240@gmail.com</p>
+                                <button onclick="copiarPix()" class="btn btn-pix">
+                                    <i data-lucide="copy"></i> Copiar Chave Pix
+                                </button>
+                            </div>
+                            
+                            <div class="pix-instructions">
+                                <h3>Instruções</h3>
+                                <ol>
+                                    <li>Copie a chave Pix acima</li>
+                                    <li>Abra o app do seu banco</li>
+                                    <li>Escolha a opção Pix</li>
+                                    <li>Cole a chave e faça o pagamento</li>
+                                    <li>Após pagar, envie o comprovante no WhatsApp</li>
+                                </ol>
+                                <a href="https://wa.me/555591129387?text=Olá, fiz o pagamento do curso e estou enviando o comprovante." target="_blank" class="btn btn-primary">
+                                    <i data-lucide="message-circle"></i> Enviar Comprovante no WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Lucas Cursos • <a href="index.html">Voltar ao topo ↑</a></p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script>
+        lucide.createIcons();
+
+        let cursoAtual = null;
+        let descontoAplicado = 0;
+
+        // Carregar curso do URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const cursoId = urlParams.get('curso');
+
+        if (cursoId) {
+            cursoAtual = cursos.find(c => c.id === parseInt(cursoId));
+            if (cursoAtual) {
+                renderCheckoutInfo();
+            }
+        }
+
+        function renderCheckoutInfo() {
+            const cursoInfo = document.getElementById('curso-info');
+            cursoInfo.innerHTML = `
+                <div class="checkout-curso-item">
+                    <div class="checkout-curso-image">${cursoAtual.emoji}</div>
+                    <div class="checkout-curso-details">
+                        <h3>${cursoAtual.titulo}</h3>
+                        <p>${cursoAtual.categoria} • ${cursoAtual.duracao}</p>
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('preco-original').textContent = `R$ ${cursoAtual.preco.toFixed(2)}`;
+            document.getElementById('preco-final').textContent = `R$ ${cursoAtual.preco.toFixed(2)}`;
+            document.getElementById('pix-key').textContent = cursoAtual.pixKey;
+        }
+
+        function aplicarCupom() {
+            const cupomInput = document.getElementById('cupom-input').value.trim().toUpperCase();
+            const mensagem = document.getElementById('cupom-mensagem');
+
+            if (!cursoAtual.cupons || !cursoAtual.cupons[cupomInput]) {
+                mensagem.textContent = 'Cupom inválido';
+                mensagem.style.color = '#e74c3c';
+                return;
+            }
+
+            descontoAplicado = cursoAtual.cupons[cupomInput];
+            const descontoValor = (cursoAtual.preco * descontoAplicado / 100).toFixed(2);
+            const precoFinal = (cursoAtual.preco - descontoValor).toFixed(2);
+
+            document.getElementById('desconto-row').style.display = 'flex';
+            document.getElementById('desconto-valor').textContent = `-R$ ${descontoValor}`;
+            document.getElementById('preco-final').textContent = `R$ ${precoFinal}`;
+
+            mensagem.textContent = `Cupom aplicado! ${descontoAplicado}% de desconto`;
+            mensagem.style.color = '#27ae60';
+        }
+
+        function copiarPix() {
+            const pixKey = document.getElementById('pix-key').textContent;
+            navigator.clipboard.writeText(pixKey).then(() => {
+                alert('Chave Pix copiada para a área de transferência!');
+            }).catch(err => {
+                alert('Erro ao copiar. Tente manualmente.');
+            });
+        }
+    </script>
+</body>
+</html>

@@ -4,6 +4,50 @@
     box-sizing: border-box;
 }
 
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-slide-in {
+    animation: slideIn 0.5s ease-out forwards;
+}
+
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
@@ -210,6 +254,28 @@ body {
     line-height: 1.5;
 }
 
+.curso-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+}
+
+.curso-rating .stars {
+    color: #ffc107;
+    letter-spacing: 2px;
+}
+
+.curso-rating .rating-number {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.curso-rating .students {
+    color: #999;
+}
+
 .curso-price {
     font-size: 1.5rem;
     font-weight: 700;
@@ -222,6 +288,12 @@ body {
     margin-top: 1rem;
     font-size: 0.85rem;
     color: #666;
+}
+
+.btn-comprar {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.8rem;
 }
 
 /* Sobre Section */
@@ -377,6 +449,247 @@ body {
 .curso-conteudo-text .conclusao h3 {
     color: white;
     margin-top: 0;
+}
+
+/* Checkout Section */
+.checkout-section {
+    padding: 4rem 0;
+    background: #f5f5f5;
+}
+
+.checkout-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.checkout-summary,
+.checkout-payment {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.checkout-summary h2,
+.checkout-payment h2 {
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+    font-size: 1.5rem;
+}
+
+.checkout-curso-item {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background: #f5f5f5;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.checkout-curso-image {
+    font-size: 2.5rem;
+}
+
+.checkout-curso-details h3 {
+    font-size: 1.1rem;
+    color: #1a1a1a;
+    margin-bottom: 0.25rem;
+}
+
+.checkout-curso-details p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.coupon-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.coupon-section h3 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #1a1a1a;
+}
+
+.coupon-input-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.coupon-input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 2px solid #e5e5e5;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+.coupon-input:focus {
+    outline: none;
+    border-color: #1a1a1a;
+}
+
+.cupom-mensagem {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.total-section {
+    border-top: 2px solid #e5e5e5;
+    padding-top: 1.5rem;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+}
+
+.price-row.discount {
+    color: #27ae60;
+}
+
+.price-row.total {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-top: 1rem;
+}
+
+.pix-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.pix-info h3,
+.pix-instructions h3 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #1a1a1a;
+}
+
+.pix-key {
+    background: #f5f5f5;
+    padding: 1rem;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 1.1rem;
+    word-break: break-all;
+    margin: 1rem 0;
+    color: #1a1a1a;
+}
+
+.btn-pix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    background: #32bcad;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-pix:hover {
+    background: #2a9d8f;
+}
+
+.pix-instructions ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.pix-instructions li {
+    margin-bottom: 0.75rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.pix-instructions .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+/* FAQ Section */
+.faq-section {
+    padding: 6rem 0;
+    background: #f5f5f5;
+}
+
+.faq-section .section-title {
+    margin-bottom: 0.5rem;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 3rem auto 0;
+}
+
+.faq-item {
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.faq-question {
+    width: 100%;
+    padding: 1.5rem;
+    background: white;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #1a1a1a;
+    transition: background 0.3s;
+}
+
+.faq-question:hover {
+    background: #f9f9f9;
+}
+
+.faq-question i {
+    transition: transform 0.3s;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.faq-answer p {
+    padding: 0 1.5rem 1.5rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.faq-item.active .faq-question {
+    background: #f9f9f9;
+}
+
+.faq-item.active .faq-question i {
+    transform: rotate(180deg);
 }
 
 /* Footer */
