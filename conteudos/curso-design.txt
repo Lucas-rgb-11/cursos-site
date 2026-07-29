@@ -1,0 +1,202 @@
+CURSO: DESIGN GRÁFICO
+=====================
+
+AULA 1: TEORIA DAS CORES
+-------------------------
+Fundamentos da Cor
+- O que é cor
+- Círculo cromático
+- Cores primárias, secundárias e terciárias
+- Temperatura das cores (quentes e frias)
+
+Harmonia de Cores
+- Monocromático
+- Análogo
+- Complementar
+- Triádico
+- Tetrádico
+
+Psicologia das Cores
+- Significado das cores
+- Cores e emoções
+- Cores em branding
+- Testes A/B com cores
+
+Paletas de Cores
+- Como criar paletas
+- Ferramentas de cor
+- Paletas populares
+- Acessibilidade e contraste
+
+AULA 2: PHOTOSHOP AVANÇADO
+---------------------------
+Interface do Photoshop
+- Workspace personalizado
+- Painéis e ferramentas
+- Atalhos essenciais
+
+Camadas e Máscaras
+- Trabalhando com layers
+- Layer masks
+- Blending modes
+- Smart objects
+
+Seleção e Recorte
+- Ferramentas de seleção
+- Select e mask
+- Pen tool avançado
+- Recorte preciso
+
+Ajustes e Filtros
+- Adjustment layers
+- Filtros não-destrutivos
+- Camera Raw
+- Color grading
+
+Retoque e Edição
+- Clone stamp
+- Healing brush
+- Content-aware fill
+- Frequency separation
+
+AULA 3: ILLUSTRATOR
+-------------------
+Interface do Illustrator
+- Workspace e painéis
+- Ferramentas vetoriais
+- Atalhos essenciais
+
+Formas e Vetores
+- Shape tools
+- Pen tool avançado
+- Pathfinder
+- Shape builder
+
+Tipografia
+- Fontes e classificação
+- Kerning, tracking e leading
+- Hierarquia tipográfica
+- Texto em caminho
+
+Cores e Gradientes
+- Swatches
+- Gradientes
+- Padrões
+- Cores globais
+
+Ilustração
+- Desenho vetorial
+- Brush tool
+- Blob brush
+- Ilustração de ícones
+
+AULA 4: FIGMA PARA UI/UX
+--------------------------
+Introdução ao Figma
+- Interface do Figma
+- Frames e artboards
+- Componentes
+- Auto layout
+
+Design de Interface
+- Grid systems
+- Espaçamento e consistência
+- Tipografia digital
+- Ícones e ilustrações
+
+Prototipagem
+- Interactive components
+- Prototypes e links
+- Animações
+- Smart animate
+
+Design Systems
+- Componentes reutilizáveis
+- Estilos globais
+- Variáveis
+- Documentação
+
+Colaboração
+- Compartilhamento
+- Comentários
+- Versionamento
+- Dev mode
+
+AULA 5: BRANDING
+-----------------
+Identidade Visual
+- O que é branding
+- Importância da identidade visual
+- Pesquisa e briefing
+
+Logotipos
+- Tipos de logos
+- Processo de criação
+- Versões do logo
+- Grid de construção
+
+Paleta de Branding
+- Cores da marca
+- Cores secundárias
+- Cores neutras
+- Aplicação das cores
+
+Tipografia de Marca
+- Fontes primárias e secundárias
+- Escala tipográfica
+- Aplicação em diferentes contextos
+
+Manual de Marca
+- Guia de uso
+- Do's and don'ts
+- Aplicações
+- Versões do logo
+
+AULA 6: DESIGN PARA REDES SOCIAIS
+----------------------------------
+Formatos para Redes Sociais
+- Dimensões por plataforma
+- Formatos de imagem
+- Vídeo vs imagem estática
+- Stories e posts
+
+Instagram
+- Grid perfeito
+- Stories e carrossel
+- Reels e vídeos
+- Highlights
+
+Facebook
+- Posts e capa
+- Anúncios
+- Grupos
+- Página empresarial
+
+LinkedIn
+- Posts e artigos
+- Banners
+- Infográficos
+- Apresentações
+
+TikTok
+- Thumbnails
+- Overlays
+- Texto em vídeo
+- Efeitos visuais
+
+Ferramentas
+- Canva
+- Adobe Express
+- Unsplash
+- Pexels
+
+CONCLUSÃO
+==========
+Parabéns por completar o curso!
+Você agora tem conhecimento para criar designs profissionais para diversos contextos.
+
+Próximos passos:
+- Construir portfólio
+- Praticar com projetos reais
+- Especializar-se em uma área
+- Continuar aprendendo

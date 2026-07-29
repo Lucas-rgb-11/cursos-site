@@ -1,0 +1,163 @@
+CURSO: MARKETING DIGITAL
+========================
+
+AULA 1: FUNDAMENTOS DE MARKETING
+---------------------------------
+O que é Marketing Digital
+- Diferença entre marketing tradicional e digital
+- Importância do marketing digital hoje
+- Funil de vendas digital
+
+Persona e Público-alvo
+- Definindo sua persona
+- Pesquisa de mercado
+- Segmentação de público
+
+Jornada do Cliente
+- Etapas da jornada
+- Touchpoints
+- Mapeamento da jornada
+
+AULA 2: REDES SOCIAIS
+----------------------
+Estratégia de Redes Sociais
+- Escolhendo as redes certas
+- Calendário de conteúdo
+- Tom de voz e identidade
+
+Instagram
+- Perfil otimizado
+- Stories e Reels
+- Hashtags e alcance
+- Engajamento
+
+Facebook
+- Página empresarial
+- Grupos
+- Facebook Ads básico
+- Analytics
+
+LinkedIn
+- Perfil profissional
+- Conteúdo B2B
+- Networking
+- LinkedIn Ads
+
+TikTok
+- Conteúdo viral
+- Trends e desafios
+- Algoritmo
+- Monetização
+
+AULA 3: SEO E TRÁFEGO PAGO
+---------------------------
+SEO (Search Engine Optimization)
+- O que é SEO
+- Palavras-chave
+- On-page SEO
+- Off-page SEO
+- SEO técnico
+- Ferramentas de SEO
+
+Google Ads
+- Campanhas de pesquisa
+- Campanhas de display
+- Remarketing
+- Otimização de campanhas
+- ROI e métricas
+
+Facebook/Instagram Ads
+- Criativos e copy
+- Segmentação
+- Pixel do Facebook
+- Funis de anúncios
+- Testes A/B
+
+AULA 4: EMAIL MARKETING
+-------------------------
+Estratégia de Email Marketing
+- Construção de lista
+- Segmentação
+- Automação
+- Deliverability
+
+Tipos de Email
+- Newsletter
+- Sequência de boas-vindas
+- Emails promocionais
+- Emails transacionais
+
+Copywriting para Email
+- Assuntos que convertem
+- Estrutura do email
+- CTA efetivos
+- Testes A/B
+
+Ferramentas
+- Mailchimp
+- ActiveCampaign
+- ConvertKit
+- Brevo (antigo Sendinblue)
+
+AULA 5: COPYWRITING
+-------------------
+Fundamentos de Copywriting
+- O que é copywriting
+- Psicologia da persuasão
+- Gatilhos mentais
+- Storytelling
+
+Estruturas de Copy
+- AIDA (Atenção, Interesse, Desejo, Ação)
+- PAS (Problema, Agitação, Solução)
+- FAB (Features, Advantages, Benefits)
+- 4 U's (Urgent, Unique, Useful, Ultra-specific)
+
+Copy para diferentes canais
+- Landing pages
+- Anúncios
+- Redes sociais
+- Emails
+- Blog posts
+
+Testes e Otimização
+- Testes A/B
+- Métricas de copy
+- Otimização contínua
+
+AULA 6: ANALYTICS
+------------------
+Google Analytics
+- Instalação e configuração
+- Métricas principais
+- GA4 vs Universal Analytics
+- Relatórios personalizados
+
+Métricas Importantes
+- Tráfego
+- Taxa de conversão
+- CAC (Custo de Aquisição)
+- LTV (Lifetime Value)
+- ROI (Return on Investment)
+
+Ferramentas de Analytics
+- Google Search Console
+- Hotjar
+- Crazy Egg
+- SEMrush
+
+Análise de Dados
+- Interpretando métricas
+- Tomada de decisão baseada em dados
+- Relatórios e dashboards
+
+CONCLUSÃO
+==========
+Parabéns por completar o curso!
+Você agora tem conhecimento para criar estratégias de marketing digital completas.
+
+Próximos passos:
+- Implementar estratégias
+- Testar e otimizar
+- Acompanhar resultados
+- Continuar aprendendo

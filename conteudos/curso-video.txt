@@ -1,0 +1,188 @@
+CURSO: PRODUÇÃO DE VÍDEO
+=========================
+
+AULA 1: ROTEIRO E STORYBOARD
+------------------------------
+Estrutura de Roteiro
+- Introdução (hook)
+- Desenvolvimento
+- Clímax
+- Conclusão
+- Call to action
+
+Tipos de Roteiro
+- Roteiro para YouTube
+- Roteiro para Instagram
+- Roteiro para TikTok
+- Roteiro corporativo
+
+Storyboard
+- O que é storyboard
+- Como criar storyboard
+- Planejamento de cenas
+- Visualização do projeto
+
+Técnicas de Storytelling
+- Narrativa envolvente
+- Personagem e conflito
+- Arco narrativo
+- Emoção e conexão
+
+AULA 2: ILUMINAÇÃO E ÁUDIO
+---------------------------
+Iluminação Básica
+- Luz natural vs artificial
+- Três pontos de luz
+- Temperatura de cor
+- Reflectores e difusores
+
+Equipamentos de Iluminação
+- Softboxes
+- Ring lights
+- Panelas LED
+- Luzes práticas
+
+Áudio
+- Microfones (lapela, shotgun, handheld)
+- Gravadores de áudio
+- Ambiente acústico
+- Redução de ruído
+
+Técnicas de Gravação
+- Posicionamento de microfone
+- Níveis de áudio
+- Monitoramento
+- Backup de áudio
+
+AULA 3: EDIÇÃO COM PREMIERE
+-----------------------------
+Interface do Premiere
+- Workspace
+- Painéis
+- Timeline
+- Ferramentas essenciais
+
+Importação e Organização
+- Importar mídia
+- Organizar bins
+- Criar proxies
+- Metadados
+
+Corte e Edição
+- Ferramentas de corte
+- Ripple edit
+- Slip e slide
+- Trim tools
+
+Transições e Efeitos
+- Transições básicas
+- Efeitos de vídeo
+- Efeitos de áudio
+- Keyframing
+
+Texto e Gráficos
+- Títulos
+- Lower thirds
+- Gráficos animados
+- Logotipos
+
+AULA 4: EFEITOS VISUAIS
+------------------------
+Color Grading
+- Correção de cor
+- Color grading
+- LUTs
+- Estilos de cor
+
+Efeitos Especiais
+- Chroma key (green screen)
+- Mascaramento
+- Rastreamento de movimento
+- Composição
+
+Animação
+- Motion graphics básico
+- Animação de texto
+- Transições animadas
+- Efeitos de partículas
+
+Técnicas Avançadas
+- Composição multicam
+- Sincronização
+- Estabilização
+- Remoção de objetos
+
+AULA 5: YOUTUBE SEO
+--------------------
+Otimização de Títulos
+- Palavras-chave
+- Títulos clicáveis
+- Comprimento ideal
+- Testes A/B
+
+Descrições
+- Estrutura ideal
+- Palavras-chave
+- Links e CTAs
+- Hashtags
+
+Thumbnails
+- Importância da thumbnail
+- Design efetivo
+- Cores e contraste
+- Testes A/B
+
+Tags e Metadados
+- Pesquisa de palavras-chave
+- Tags relevantes
+- Categorias
+- Playlists
+
+Analytics
+- Métricas importantes
+- Retenção de audiência
+- CTR (Click-through rate)
+- Tempo de assistir
+
+AULA 6: MONETIZAÇÃO
+--------------------
+Programa de Parcerias YouTube
+- Requisitos
+- Tipos de monetização
+- RPM vs CPM
+- Fatores que afetam ganhos
+
+Outras Plataformas
+- Instagram (IGTV, Reels)
+- TikTok (Creator Fund)
+- Twitch
+- Patreon
+
+Patrocínios
+- Como conseguir patrocinadores
+- Tipos de parcerias
+- Disclosure transparente
+- Negociação
+
+Venda de Produtos
+- Merchandise
+- Cursos e produtos digitais
+- Afiliados
+- Consultoria
+
+Estratégias de Crescimento
+- Consistência
+- Engajamento com comunidade
+- Colaborações
+- Cross-promoção
+
+CONCLUSÃO
+==========
+Parabéns por completar o curso!
+Você agora tem conhecimento para produzir vídeos profissionais para diversas plataformas.
+
+Próximos passos:
+- Praticar regularmente
+- Construir portfólio
+- Analisar resultados
+- Continuar aprendendo novas técnicas
