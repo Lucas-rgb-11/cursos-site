@@ -8,14 +8,10 @@ const cursos = [
         duracao: "40 horas",
         nivel: "Iniciante",
         emoji: "💻",
-        pixKey: "lucasklein240@gmail.com",
+        pixKey: "lucasklein2411@gmail.com",
         codigoAcesso: "PROG2024",
-        alunos: 1234,
-        avaliacao: 4.8,
-        cupons: {
-            "PRIMEIRA10": 10,
-            "BEMVINDO20": 20
-        },
+        alunos: 2,
+        avaliacao: 10,
         conteudoTexto: `CURSO: PROGRAMAÇÃO WEB COMPLETO
 ================================
 
@@ -184,14 +180,10 @@ Próximos passos:
         duracao: "30 horas",
         nivel: "Iniciante",
         emoji: "📈",
-        pixKey: "lucasklein240@gmail.com",
+        pixKey: "lucasklein2411@gmail.com",
         codigoAcesso: "MKT2024",
-        alunos: 892,
-        avaliacao: 4.7,
-        cupons: {
-            "PRIMEIRA10": 10,
-            "BEMVINDO20": 20
-        },
+        alunos: 2,
+        avaliacao: 10,
         conteudoTexto: `CURSO: MARKETING DIGITAL
 ========================
 
@@ -373,14 +365,10 @@ Próximos passos:
         duracao: "35 horas",
         nivel: "Intermediário",
         emoji: "🎨",
-        pixKey: "lucasklein240@gmail.com",
+        pixKey: "lucasklein2411@gmail.com",
         codigoAcesso: "DES2024",
-        alunos: 654,
-        avaliacao: 4.9,
-        cupons: {
-            "PRIMEIRA10": 10,
-            "BEMVINDO20": 20
-        },
+        alunos: 2,
+        avaliacao: 10,
         conteudoTexto: `CURSO: DESIGN GRÁFICO
 =====================
 
@@ -601,14 +589,10 @@ Próximos passos:
         duracao: "20 horas",
         nivel: "Iniciante",
         emoji: "💰",
-        pixKey: "lucasklein240@gmail.com",
+        pixKey: "lucasklein2411@gmail.com",
         codigoAcesso: "FIN2024",
-        alunos: 1523,
-        avaliacao: 4.6,
-        cupons: {
-            "PRIMEIRA10": 10,
-            "BEMVINDO20": 20
-        },
+        alunos: 2,
+        avaliacao: 10,
         conteudoTexto: `CURSO: FINANÇAS PESSOAIS
 ========================
 
@@ -795,14 +779,10 @@ Próximos passos:
         duracao: "50 horas",
         nivel: "Intermediário",
         emoji: "🌍",
-        pixKey: "lucasklein240@gmail.com",
+        pixKey: "lucasklein2411@gmail.com",
         codigoAcesso: "ING2024",
-        alunos: 432,
-        avaliacao: 4.8,
-        cupons: {
-            "PRIMEIRA10": 10,
-            "BEMVINDO20": 20
-        },
+        alunos: 2,
+        avaliacao: 10,
         conteudoTexto: `CURSO: INGLÊS PARA NEGÓCIOS
 ===========================
 
@@ -997,14 +977,10 @@ Próximos passos:
         duracao: "25 horas",
         nivel: "Iniciante",
         emoji: "🎬",
-        pixKey: "lucasklein240@gmail.com",
+        pixKey: "lucasklein2411@gmail.com",
         codigoAcesso: "VID2024",
-        alunos: 789,
-        avaliacao: 4.7,
-        cupons: {
-            "PRIMEIRA10": 10,
-            "BEMVINDO20": 20
-        },
+        alunos: 2,
+        avaliacao: 10,
         conteudoTexto: `CURSO: PRODUÇÃO DE VÍDEO
 =========================
 
